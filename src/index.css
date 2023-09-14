@@ -1,0 +1,87 @@
+
+
+/* Pictures */
+
+/* WEK 2023 */
+.Logo-WEK23-1 {
+  background-image: url(./images/WEK23-1.JPG);
+}
+
+@font-face {
+  font-family: "Genesys";
+  src: local("Genesys"),
+    url("./fonts/Genesys/Genesys.ttf");
+  font-weight: bold;
+}
+
+/* DraftAuto Format Classes */
+
+.dA-bin-c{
+  font-family: "Genesys";
+  text-align: center;
+}
+
+.dA-bin{
+  font-family: "Genesys";
+}
+
+.dA-bin-sm{
+  font-family: "Genesys";
+  font-size: x-small;
+}
+
+/* Blog Format classes */
+
+.blogtitle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  display: flex;
+  width: 75%;
+  font-weight: bold;
+}
+
+.blog{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  display: flex;
+  width: 75%;
+}
+
+.blog-c{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin: 5%;
+}
+
+.blog-r{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.blog-l{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  text-align: left;
+  margin-left: 5%;
+}
+
+body {
+  height: 100%;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:linear-gradient(rgb(78, 153, 179),rgb(241, 54, 241));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
