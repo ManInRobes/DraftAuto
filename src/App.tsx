@@ -7,7 +7,7 @@ export default function App() {
       {/* DRAFT AUTO HEADER */}
       <div className="dA-bin-c">
         <div className="dA-bin"><br></br>
-        <img src="public\images\DraftAutoLogo.jpg" width={500}></img>
+        <img src="\images\DraftAutoLogo.jpg" width={500}></img>
         </div>
         <div className="dA-bin-sm">- Magazine and Apprael -</div>
         <hr>
@@ -93,7 +93,7 @@ function Home() {
     <div>
       <h2>Home</h2>
       <body>Welcome to <b>Draft Auto</b><br></br></body>
-      <img src="public\images\DRAFTAUTOMOCK.png" width={600}></img>
+      <img src="\images\DRAFTAUTOMOCK.png" width={600}></img>
       <div>this is a temp place holder</div>
     </div>
   );
@@ -104,12 +104,12 @@ function Cars(){
       <h2>Cars</h2>
       
       <div className="blog-l">
-      <img src="public\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
+      <img src="\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
       <span className="blogtitle"> Wekfest 2023</span>
       </div>
 
       <p className="blog-r">
-      <img src="public\images\WEK23-2.JPG" width={300} height={200} alt="" />
+      <img src="\images\WEK23-2.JPG" width={300} height={200} alt="" />
       </p>
 
 
