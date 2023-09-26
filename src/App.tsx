@@ -7,7 +7,7 @@ export default function App() {
       {/* DRAFT AUTO HEADER */}
       <div className="dA-bin-c">
         <div className="dA-bin"><br></br>
-        <img src="src\images\DraftAutoLogo.jpg" width={500}></img>
+        <img src="public\images\DraftAutoLogo.jpg" width={500}></img>
         </div>
         <div className="dA-bin-sm">- Magazine and Apprael -</div>
         <hr>
@@ -93,7 +93,7 @@ function Home() {
     <div>
       <h2>Home</h2>
       <body>Welcome to <b>Draft Auto</b><br></br></body>
-      <img src="src\images\DRAFTAUTOMOCK.png" width={600}></img>
+      <img src="public\images\DRAFTAUTOMOCK.png" width={600}></img>
       <div>this is a temp place holder</div>
     </div>
   );
@@ -104,12 +104,12 @@ function Cars(){
       <h2>Cars</h2>
       
       <div className="blog-l">
-      <img src="src/images/WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
+      <img src="public\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
       <span className="blogtitle"> Wekfest 2023</span>
       </div>
 
       <p className="blog-r">
-      <img src="src/images/WEK23-2.JPG" width={300} height={200} alt="" />
+      <img src="public\images\WEK23-2.JPG" width={300} height={200} alt="" />
       </p>
 
 
@@ -205,7 +205,6 @@ function FAQ() {
         it into a street/track car. To me, the true beauty of owning and working on a car lies in expressing your personality through it. I see it as a reflection of oneself, with rat rods and bosozuko-inspired vans being prime examples of how individuals use their vehicles as a canvas for self-expression. While I value functionality over aesthetics (a nod to those who prefer slammed cars), I also appreciate the dedication it takes to turn dreams into reality.
         Another automotive passion of mine is station wagons, and in my eyes, the E30 station wagon represents the ultimate upgrade for my vehicle since I
         consider most of the interior components interchangeable.
-
       </body>
       </div>
   );

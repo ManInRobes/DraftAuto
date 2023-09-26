@@ -14,20 +14,26 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Mayhem";
+  src: local('Mayhem') url(./fonts/mayhem/MAYHEM-Regular.ttf) format('Mayhem');
+}
+
 /* DraftAuto Format Classes */
 
 .dA-bin-c{
-  font-family: "Genesys";
+  font-family: "Mayhem";
   text-align: center;
+  color: antiquewhite;
 }
 
 .dA-bin{
-  font-family: "Genesys";
+  font-family: "Mayhem";
 }
 
 .dA-bin-sm{
-  font-family: "Genesys";
-  font-size: x-small;
+  font-family: "Mayhem";
+  font-size: small;
 }
 
 /* Blog Format classes */
@@ -76,7 +82,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:linear-gradient(rgb(78, 153, 179),rgb(241, 54, 241));
+  background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
 }
 
 code {
