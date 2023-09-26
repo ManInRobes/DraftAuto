@@ -1,9 +1,4 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import Thumbnail from "react-webpage-thumbnail";
-
-<Thumbnail 
-url="https://maninrobes.com/"
-/>
 
 export default function App() {
   return (
@@ -15,8 +10,6 @@ export default function App() {
         <img src="\images\DraftAutoLogo.jpg" width={500}></img>
         </div>
         <div className="dA-bin-sm">- Magazine and Apprael -</div>
-        <hr>
-        </hr>
       </div>
 
       {/* Menu options; Home, Blog, Cars, Apprael, Contact, FAQ */}
