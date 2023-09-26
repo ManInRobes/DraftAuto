@@ -1,4 +1,9 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Thumbnail from "react-webpage-thumbnail";
+
+<Thumbnail 
+url="https://maninrobes.com/"
+/>
 
 export default function App() {
   return (
