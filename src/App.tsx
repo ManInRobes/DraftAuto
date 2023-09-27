@@ -98,7 +98,7 @@ function Layout() {
 
 function Home() {
   return (
-    <div style={{justifyContent: 'center'}}>
+    <div style={{justifyContent: 'center', justifyItems: 'center'}}>
       <h2>Home</h2>
       <body>Welcome to <b>Draft Auto</b><br/><br/></body>
       
@@ -262,7 +262,7 @@ function Feedback() {
 
 function NoMatch() {
   return (
-    <div style={{justifyContent: 'center'}}>
+    <div style={{justifyContent: 'center', justifyItems: 'center'}}>
       <h2>Nothing to see here!</h2>
       <p>
         <Link to="/">Go to the home page</Link>
