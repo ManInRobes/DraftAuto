@@ -7,7 +7,9 @@ export default function App() {
       {/* DRAFT AUTO HEADER */}
       <div className="dA-bin-c">
         <div className="dA-bin"><br></br>
-        <img src="\images\DraftAutoLogo.jpg" width={500}></img>
+        <img src="\images\DraftAutoLogo.jpg"
+         width={500}
+         style={{ alignSelf: 'center' }}></img>
         </div>
         <div className="dA-bin-sm">- Magazine and Apprael -</div>
       </div>
@@ -35,6 +37,10 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="feedback" element={<Feedback />} />
+
+          {/* 2023 Issues */}
+          <Route path="oct23" element={<October23/>} />
           
 
           {/* Using path="*"" means "match anything", so this route
@@ -72,6 +78,10 @@ function Layout() {
 
             <Link to="/faq">FAQ</Link>
 
+            <span> - </span>
+
+            <Link to="/feedback">Feedback</Link>
+
 
             {/* <Link to="/nothing-here">Nothing Here</Link> */}
         </ul>
@@ -90,9 +100,23 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
-      <body>Welcome to <b>Draft Auto</b><br></br></body>
-      <img src="\images\DRAFTAUTOMOCK.png" width={600}></img>
-      <div>this is a temp place holder</div>
+      <body>Welcome to <b>Draft Auto</b><br/><br/></body>
+      
+      <body>
+      
+      {/* <img src="\images\DRAFTAUTOMOCK.png"
+       width={600}
+       style={{ alignSelf: 'center' }}/>
+      <div>This is a concept cover</div> */}
+      <b>~2023~</b></body>
+      <br/>
+      *pst* click me <br/>
+      <Link to="/oct23">
+      <img src="/images/DraftAuto2023OCT.png"
+      width={600}
+      style={{ alignSelf: 'center' }}/>
+      </Link>
+
     </div>
   );
 }
@@ -100,6 +124,9 @@ function Cars(){
   return (
     <div>
       <h2>Cars</h2>
+
+      Not sure what to do with this part yet... <br/>
+      <img src="/images/RatKingWhite.png" width={200} height={200}/>
       
       <div className="blog-l">
       <img src="\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
@@ -130,9 +157,13 @@ function Social(){
   return (
     <div>
       <h2>Social</h2>
-      <a href="https://www.instagram.com/draftautocommunity/">Draft Auto<br></br><br></br></a>
-      <a href="https://www.instagram.com/maninrobes/">Personal Instagram<br></br></a>
-      <a href="https://www.twitch.tv/maninrobes"><br></br>Twitch</a><body>I only play stream games I really care about</body>
+      
+      <a href="https://www.instagram.com/draftautocommunity/">
+        <img src="/images/DraftLogoURL.png" width={200} height={200}/><br/>Draft Auto
+        <br></br><br></br></a> <br/>
+      <a href="https://www.instagram.com/maninrobes/">
+        <img src="/images/ManInRobes.png" width={300} height={200}/><br/>
+        Gabe's Instagram<br></br></a>
 
     </div>
   );
@@ -203,6 +234,7 @@ function FAQ() {
         it into a street/track car. To me, the true beauty of owning and working on a car lies in expressing your personality through it. I see it as a reflection of oneself, with rat rods and bosozuko-inspired vans being prime examples of how individuals use their vehicles as a canvas for self-expression. While I value functionality over aesthetics (a nod to those who prefer slammed cars), I also appreciate the dedication it takes to turn dreams into reality.
         Another automotive passion of mine is station wagons, and in my eyes, the E30 station wagon represents the ultimate upgrade for my vehicle since I
         consider most of the interior components interchangeable.
+        <br/><br/>
       </body>
       </div>
   );
@@ -216,6 +248,19 @@ function Dashboard() {
   );
 }
 
+function Feedback() {
+  return (
+    <div>
+      <h2>Feedback</h2>
+      <br/>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTEGVczIOyDCka14hwF5XIL3oDhA0ormqDsJlM4YuH4mXJHQ/viewform?embedded=true" width="640"
+       height="623" frameborder="0"
+        marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  );
+}
+
+
 function NoMatch() {
   return (
     <div>
@@ -225,4 +270,68 @@ function NoMatch() {
       </p>
     </div>
   );
+}
+
+// 2023 ISSUES
+function October23() {
+  return(
+    <div> <body>
+      <b>Finally!</b>
+      <br/><br/> it's spooky season as the first attempt at a real issue I’ll be running it loose and keeping it short. 
+       After a lot of trial and error with getting this site up I can get to the fun part of building this club/brand/news
+      finding stories to tell and taking pictures of some fucking rad cars. In the spirit of some punk magazines,
+      I was researching while brainstorming this project, and I had an idea of using both my interpretation of the Rat
+      King that will show up pretty frequently in the form of doodles and treat this as my signature on articles.
+      Additionally, I want to include only the named ‘Mr. Bones’ for the moment in future pictures he’s the perfect
+      model for photos. For this first article, I wanted to spend some time going over some events I would like to
+      attend, discuss as of currently my current plans for growing the project, and talk more about my vision for
+      where I would like things to go.
+      <br/><br/>
+      <img src="/images/BMWOCT.png" 
+      width={600}
+      style={{ alignSelf: 'center' }}
+      ></img><br/><br/>
+
+
+      <b>Events (short term Sep/Oct/Nov/Dec),</b><br/><br/>
+
+      <b>Planning:</b>
+      <br/>-Attending some more of the local car meets (UW car club, other small car meet-ups)
+      <br/>-Really want to find some cars and coffee
+      <br/><br/> 
+      
+      <b>-Looking into:</b>
+      <br/>-Seattle International Car Show I’m on the ropes for
+      <br/>-2023 rally cross (might be next year)
+      <br/>-Some of the Evergreen Speedway race events later in October
+      <br/><br/>
+
+      <img src="/images/BMWOCTWide.png" width={600}
+      style={{ alignSelf: 'center' }} /> <br/><br/>
+
+      Short-term plans and current Draft Auto,
+
+My whole goal for DA is to help spread information regarding events, other car-focused groups, drivers,
+and their cars, and take some sweet ass photos along the way for those local to Washington. After I say
+that your first reaction might be to ask the question why only local to Washington? Well honestly even
+if this were ever to gain enough traction and everything lined up I don’t know that I would ever try
+and make something for outside of Washington unless I myself went to an event or something else of note.
+In the end, the effort I spend is to encourage more events for my community. So as I do grow and down
+the line, I’m going to try and upgrade things so the cost is as low as possible for my ideas around
+magazines I want to do a return to form with old black and white punk magazines I can still kind of find.
+With annual issues being 5$ (target price) for annuals and other things being free if possible with
+advertising inside. Of course if possible I’d love to have a centerfold of maybe a community-voted
+car, a featured car, or something fun to represent the month. As much as I push myself I’m not
+much of a writer so most of my articles or retellings will be image-based. To remedy that one
+of the big things will be finding more people I can trust with writing small articles or allowing
+me to share what they’ve written here with links. As a small addition, I want to show off people's
+art so if you have a little comic or something that you’d like to add I’ll add a submissions tab
+shortly. I’ll post a write-up of how I would like things to function in a later post with some
+visual aid.
+<br/><br/>
+Thank you,
+<br/>
+<img src="/images/GAHWhite.png" width={100} height={100}/><img src="/images/RatKingWhite.png" width={100} height={100}/>
+</body></div>
+  )
 }
