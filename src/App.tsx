@@ -123,12 +123,12 @@ function Home() {
 function Cars(){
   return (
     <div style={{justifyContent: 'center'}}>
-      <h2>Cars</h2>
+      <h2 style={{justifyContent: 'center'}}>Cars</h2>
 
       Not sure what to do with this part yet... <br/>
       <img src="/images/RatKingWhite.png" width={200} height={200}/>
       
-      <div className="blog-l">
+      <div className="blog-l" style={{justifyContent: 'center'}}>
       <img src="\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
       <span className="blogtitle"> Wekfest 2023</span>
       </div>
@@ -156,7 +156,7 @@ function Apprael(){
 function Social(){
   return (
     <div style={{justifyContent: 'center'}}>
-      <h2>Social</h2>
+      <h2 style={{justifyContent: 'center'}}>Social</h2>
       
       <a href="https://www.instagram.com/draftautocommunity/">
         <img src="/images/DraftLogoURL.png" width={200} height={200}/><br/>Draft Auto
@@ -274,7 +274,7 @@ function NoMatch() {
 // 2023 ISSUES
 function October23() {
   return(
-    <div style={{justifyContent: 'center'}}> <body>
+    <div style={{justifyContent: 'center'}}> <body style={{justifyContent: 'center'}}>
       <b>Finally!</b>
       <br/><br/> it's spooky season as the first attempt at a real issue I’ll be running it loose and keeping it short. 
        After a lot of trial and error with getting this site up I can get to the fun part of building this club/brand/news
