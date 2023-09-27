@@ -254,8 +254,7 @@ function Feedback() {
       <h2>Feedback</h2>
       <br/>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTEGVczIOyDCka14hwF5XIL3oDhA0ormqDsJlM4YuH4mXJHQ/viewform?embedded=true" width="640"
-       height="623" frameborder="0"
-        marginheight="0" marginwidth="0">Loading…</iframe>
+       height="623">Loading…</iframe>
     </div>
   );
 }
