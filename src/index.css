@@ -4,7 +4,7 @@
 
 /* WEK 2023 */
 .Logo-WEK23-1 {
-  background-image: url(./images/WEK23-1.JPG);
+  background-image: url(/images/WEK23-1.JPG);
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Mayhem";
-  src: local('Mayhem') url(./fonts/mayhem/MAYHEM-Regular.ttf) format('Mayhem');
+  src: local('Mayhem') url(/fonts/mayhem/MAYHEM-Regular.ttf) format('Mayhem');
 }
 
 /* DraftAuto Format Classes */

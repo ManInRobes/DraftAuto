@@ -2,7 +2,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
 
       {/* DRAFT AUTO HEADER */}
       <div className="dA-bin-c">
@@ -98,7 +98,7 @@ function Layout() {
 
 function Home() {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Home</h2>
       <body>Welcome to <b>Draft Auto</b><br/><br/></body>
       
@@ -114,7 +114,7 @@ function Home() {
       <Link to="/oct23">
       <img src="/images/DraftAuto2023OCT.png"
       width={600}
-      style={{ alignSelf: 'center' }}/>
+      style={{ alignSelf: 'left' }}/>
       </Link>
 
     </div>
@@ -122,7 +122,7 @@ function Home() {
 }
 function Cars(){
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Cars</h2>
 
       Not sure what to do with this part yet... <br/>
@@ -144,7 +144,7 @@ function Cars(){
 }
 function Apprael(){
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Apprael</h2>
       <body>
         Coming soon!
@@ -155,7 +155,7 @@ function Apprael(){
 }
 function Social(){
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Social</h2>
       
       <a href="https://www.instagram.com/draftautocommunity/">
@@ -170,7 +170,7 @@ function Social(){
 }
 function Contact(){
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Contact</h2>
     </div>
   );
@@ -242,7 +242,7 @@ function FAQ() {
 
 function Dashboard() {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Dashboard</h2>
     </div>
   );
@@ -250,7 +250,7 @@ function Dashboard() {
 
 function Feedback() {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Feedback</h2>
       <br/>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTEGVczIOyDCka14hwF5XIL3oDhA0ormqDsJlM4YuH4mXJHQ/viewform?embedded=true" width="640"
@@ -262,7 +262,7 @@ function Feedback() {
 
 function NoMatch() {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <h2>Nothing to see here!</h2>
       <p>
         <Link to="/">Go to the home page</Link>
@@ -274,7 +274,7 @@ function NoMatch() {
 // 2023 ISSUES
 function October23() {
   return(
-    <div> <body>
+    <div style={{justifyContent: 'center'}}> <body>
       <b>Finally!</b>
       <br/><br/> it's spooky season as the first attempt at a real issue I’ll be running it loose and keeping it short. 
        After a lot of trial and error with getting this site up I can get to the fun part of building this club/brand/news
