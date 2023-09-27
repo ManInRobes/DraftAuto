@@ -114,7 +114,8 @@ function Home() {
       <Link to="/oct23">
       <img src="/images/DraftAuto2023OCT.png"
       width={600}
-      style={{ alignSelf: 'left' }}/>
+      style={{ alignSelf: 'left'
+      ,display: 'inline-flex'}}/>
       </Link>
 
     </div>
