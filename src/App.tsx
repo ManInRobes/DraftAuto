@@ -283,12 +283,20 @@ function Dashboard() {
 }
 
 function Feedback() {
+  const mobileView = "325";
   return (
     <div style={{justifyContent: 'center'}}>
       <h2>Feedback</h2>
       <br/>
+      <MobileView>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTEGVczIOyDCka14hwF5XIL3oDhA0ormqDsJlM4YuH4mXJHQ/viewform?embedded=true" width={mobileView}
+       height={mobileView}>Loading…</iframe>
+      </MobileView>
+      <BrowserView>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTEGVczIOyDCka14hwF5XIL3oDhA0ormqDsJlM4YuH4mXJHQ/viewform?embedded=true" width="640"
-       height="623">Loading…</iframe>
+       height="623">Loading…</iframe>      
+      </BrowserView>
+
     </div>
   );
 }
