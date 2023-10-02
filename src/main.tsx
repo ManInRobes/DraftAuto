@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 
 import "./fonts/Genesys/Genesys.ttf"
+import "./fonts/mayhem/MAYHEM-Regular.ttf"
 
 import "./index.css";
 import App from "./App";

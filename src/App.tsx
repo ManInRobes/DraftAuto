@@ -1,4 +1,9 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { BrowserView, MobileView, isMobile, isDesktop } from 'react-device-detect'
+
+// For context on example usage of Browser and mobile view
+// 1: https://stackoverflow.com/questions/39435395/reactjs-how-to-determine-if-the-application-is-being-viewed-on-mobile-or-deskto
+// 2: https://github.com/duskload/react-device-detect#readme
 
 export default function App() {
   return (
@@ -7,9 +12,19 @@ export default function App() {
       {/* DRAFT AUTO HEADER */}
       <div className="dA-bin-c">
         <div className="dA-bin"><br></br>
+        <MobileView>
         <img src="\images\DraftAutoLogo.jpg"
-         width={500}
-         style={{ alignSelf: 'center' }}></img>
+          width={250}
+          style={{ alignSelf: 'center' }}>
+        </img>
+        </MobileView>
+        <BrowserView>
+        <img src="\images\DraftAutoLogo.jpg"
+          width={500}
+          style={{ alignSelf: 'center' }}>
+        </img>
+        </BrowserView>
+
         </div>
         <div className="dA-bin-sm">- Magazine and Apprael -</div>
       </div>
@@ -111,6 +126,20 @@ function Home() {
       <b>~2023~</b></body>
       <br/>
       *pst* click me <br/>
+
+      <MobileView>
+      <Link to="/oct23">
+      <img src="/images/DraftAuto2023OCT.png"
+      width={350}
+      style={{ justifyContent: 'center'
+      ,alignItems: 'center'
+      ,flex: 1
+      ,padding: 15
+      }}/>
+      </Link>
+      </MobileView>
+
+      <BrowserView>
       <Link to="/oct23">
       <img src="/images/DraftAuto2023OCT.png"
       width={600}
@@ -118,7 +147,9 @@ function Home() {
       ,alignItems: 'center'
       ,flex: 1
       }}/>
-      </Link>
+      </Link>      
+      </BrowserView>
+
 
     </div>
   );
