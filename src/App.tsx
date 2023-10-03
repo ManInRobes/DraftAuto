@@ -129,7 +129,7 @@ function Home() {
 
       <MobileView>
       <Link to="/oct23">
-      <img src="/images/DraftAuto2023OCT.png"
+      <img src="/images/DraftAuto2023OCT.jpg"
       width={350}
       style={{ justifyContent: 'center'
       ,alignItems: 'center'
@@ -141,7 +141,7 @@ function Home() {
 
       <BrowserView>
       <Link to="/oct23">
-      <img src="/images/DraftAuto2023OCT.png"
+      <img src="/images/DraftAuto2023OCT.jpg"
       width={600}
       style={{ justifyContent: 'center'
       ,alignItems: 'center'
@@ -328,7 +328,7 @@ function October23() {
       attend, discuss as of currently my current plans for growing the project, and talk more about my vision for
       where I would like things to go.
       <br/><br/>
-      <img src="/images/BMWOCT.png" 
+      <img src="/images/BMWOCT.jpg" 
       width={600}
       style={{ alignSelf: 'center' }}
       ></img><br/><br/>
@@ -347,7 +347,7 @@ function October23() {
       <br/>-Some of the Evergreen Speedway race events later in October
       <br/><br/>
 
-      <img src="/images/BMWOCTWide.png" width={600}
+      <img src="/images/BMWOCTWide.jpg" width={600}
       style={{ alignSelf: 'center' }} /> <br/><br/>
 
       Short-term plans and current Draft Auto,
