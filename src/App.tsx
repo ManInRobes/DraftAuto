@@ -1,5 +1,5 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import { BrowserView, MobileView, isMobile, isDesktop } from 'react-device-detect'
+import { BrowserView, MobileView} from 'react-device-detect'
 
 // For context on example usage of Browser and mobile view
 // 1: https://stackoverflow.com/questions/39435395/reactjs-how-to-determine-if-the-application-is-being-viewed-on-mobile-or-deskto
