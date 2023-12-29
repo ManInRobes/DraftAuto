@@ -1,5 +1,7 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import { BrowserView, MobileView} from 'react-device-detect'
+import Button from '@mui/material/Button';
+import { ButtonBase, Fade} from "@mui/material";
 
 // For context on example usage of Browser and mobile view
 // 1: https://stackoverflow.com/questions/39435395/reactjs-how-to-determine-if-the-application-is-being-viewed-on-mobile-or-deskto
@@ -26,10 +28,10 @@ export default function App() {
         </BrowserView>
 
         </div>
-        <div className="dA-bin-sm">- Magazine and Apprael -</div>
+        <div className="dA-bin-sm">- Magazine and Apparel -</div>
       </div>
 
-      {/* Menu options; Home, Blog, Cars, Apprael, Contact, FAQ */}
+      {/* Menu options; Home, Blog, Cars, Apparel, Contact, FAQ */}
 
 
       {/* <p>
@@ -44,10 +46,11 @@ export default function App() {
             parent route paths, and nested route elements render inside
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
+        
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="cars" element={<Cars />} />
-          <Route path="apprael" element={<Apprael />} />
+          <Route path="Apparel" element={<Apparel />} />
           <Route path="social" element={<Social />} />
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
@@ -76,13 +79,15 @@ function Layout() {
       <nav>
         <ul>
 
+            {/* <Button><Link to="/cars">Cars</Link></Button> For later testing...*/}
+
             <Link to="/">Home</Link>
             <span> - </span>
 
             <Link to="/cars">Cars</Link>
             <span> - </span>
 
-            <Link to="/apprael">Apprael</Link>
+            <Link to="/Apparel">Apparel</Link>
             <span> - </span>
 
             <Link to="/social">Social</Link>
@@ -129,6 +134,7 @@ function Home() {
 
       <MobileView>
       <Link to="/oct23">
+      <p className="magazine">
       <img src="/images/DraftAuto2023OCT.jpg"
       width={350}
       style={{ justifyContent: 'center'
@@ -136,17 +142,26 @@ function Home() {
       ,flex: 1
       ,padding: 15
       }}/>
+      </p>
       </Link>
       </MobileView>
 
       <BrowserView>
+
+        <div>
+          <Fade>
+            <h1>Word</h1>
+          </Fade>
+        </div>
       <Link to="/oct23">
+      
       <img src="/images/DraftAuto2023OCT.jpg"
       width={600}
       style={{ justifyContent: 'center'
       ,alignItems: 'center'
       ,flex: 1
       }}/>
+      
       </Link>      
       </BrowserView>
 
@@ -158,28 +173,14 @@ function Cars(){
   return (
     <div style={{justifyContent: 'center'}}>
       <h2 style={{justifyContent: 'center'}}>Cars</h2>
-
-      Not sure what to do with this part yet... <br/>
-      <img src="/images/RatKingWhite.png" width={200} height={200}/>
-      
-      <div className="blog-l" style={{justifyContent: 'center'}}>
-      <img src="\images\WEK23-1.JPG" width={300} height={200} alt="./images/WEK-2.JPG"/>
-      <span className="blogtitle"> Wekfest 2023</span>
-      </div>
-
-      <p className="blog-r">
-      <img src="\images\WEK23-2.JPG" width={300} height={200} alt="" />
-      </p>
-
-
     </div>
 
   );
 }
-function Apprael(){
+function Apparel(){
   return (
     <div style={{justifyContent: 'center'}}>
-      <h2>Apprael</h2>
+      <h2>Apparel</h2>
       <body>
         Coming soon!
         Finding vendors is hard
