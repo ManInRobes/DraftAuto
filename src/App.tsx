@@ -146,12 +146,6 @@ function Home() {
       </MobileView>
 
       <BrowserView>
-
-        <div>
-          <Fade>
-            <h1>Word</h1>
-          </Fade>
-        </div>
       <Link to="/oct23">
       
       <img src="/images/DraftAuto2023OCT.jpg"
@@ -160,8 +154,13 @@ function Home() {
       ,alignItems: 'center'
       ,flex: 1
       }}/>
-      
-      </Link>      
+      </Link>
+      <body>
+        <br/>
+        Sorry no update for November or december... 
+        it's been a busy few months I'm hoping to get back to taking pictures of cars or writing articles about what I'm interested in!
+        Really want to do some general research on subarus and hondas
+      </body>
       </BrowserView>
 
 
