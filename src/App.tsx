@@ -1,7 +1,6 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import { BrowserView, MobileView} from 'react-device-detect'
-import Button from '@mui/material/Button';
-import { ButtonBase, Fade} from "@mui/material";
+import {Fade} from "@mui/material";
 
 // For context on example usage of Browser and mobile view
 // 1: https://stackoverflow.com/questions/39435395/reactjs-how-to-determine-if-the-application-is-being-viewed-on-mobile-or-deskto
