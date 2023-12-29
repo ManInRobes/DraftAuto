@@ -15,13 +15,13 @@ export default function App() {
         <div className="dA-bin"><br></br>
         <MobileView>
         <img src="\images\DraftAutoLogo.jpg"
-          width={250}
+          // width={250}
           style={{ alignSelf: 'center' }}>
         </img>
         </MobileView>
         <BrowserView>
         <img src="\images\DraftAutoLogo.jpg"
-          width={500}
+          // width={300}
           style={{ alignSelf: 'center' }}>
         </img>
         </BrowserView>
@@ -135,7 +135,7 @@ function Home() {
       <Link to="/oct23">
       <p className="magazine">
       <img src="/images/DraftAuto2023OCT.jpg"
-      width={350}
+      // width={}
       style={{ justifyContent: 'center'
       ,alignItems: 'center'
       ,flex: 1
@@ -149,7 +149,7 @@ function Home() {
       <Link to="/oct23">
       
       <img src="/images/DraftAuto2023OCT.jpg"
-      width={600}
+      // width={280}
       style={{ justifyContent: 'center'
       ,alignItems: 'center'
       ,flex: 1
@@ -328,8 +328,8 @@ function October23() {
       where I would like things to go.
       <br/><br/>
       <img src="/images/BMWOCT.jpg" 
-      width={600}
-      style={{ alignSelf: 'center' }}
+      // width={600}
+      style={{ alignSelf: 'center'}}
       ></img><br/><br/>
 
 
@@ -346,7 +346,8 @@ function October23() {
       <br/>-Some of the Evergreen Speedway race events later in October
       <br/><br/>
 
-      <img src="/images/BMWOCTWide.jpg" width={600}
+      <img src="/images/BMWOCTWide.jpg"
+      // width={600}
       style={{ alignSelf: 'center' }} /> <br/><br/>
 
       Short-term plans and current Draft Auto,

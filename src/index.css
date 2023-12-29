@@ -94,6 +94,7 @@ img {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  max-width: 85%;
 }
 
 @keyframes fadeInAnimation {
@@ -108,8 +109,8 @@ img {
 div{
   min-width: 90%;
   min-height: 90%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   overflow: auto;
 }
 
